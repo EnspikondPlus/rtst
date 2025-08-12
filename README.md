@@ -9,15 +9,16 @@ Clone the repository, then use `pip install -r requirements.txt` to install requ
 Replication of the research methodology can be conducted by running the Python files with names corresponding to each benchmark; however, results may vary slightly due to the use of commercial models. Modification of the `pipeline_base.py` file is the best way to utilize the framework for a new task.
 
 ## Attribution
-When utilizing this code in your work, we'd appreciate it if you would include the following citation:
+When utilizing this code or research in your work, we'd appreciate it if you would include the following citation:
 ```
-@misc{zhang2025realtimeselftuningmoderatorframework,
-      title={A Real-Time, Self-Tuning Moderator Framework for Adversarial Prompt Detection}, 
+@article{zhang2025realtimeselftuningmoderatorframework,
       author={Ivan Zhang},
+      title={A Real-Time, Self-Tuning Moderator Framework for Adversarial Prompt Detection}, 
+      journal = {arXiv e-prints},
       year={2025},
       eprint={2508.07139},
       archivePrefix={arXiv},
       primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2508.07139}, 
+      url={https://arxiv.org/abs/2508.07139}
 }
 ```
