@@ -1,10 +1,23 @@
 # A Real-Time Self-Tuning Moderator Framework for Adversarial Prompt Detection
-A moderator framework for LLM security. This repository holds source code and benchmarking datasets used during research investigation of RTST.
+A moderator framework for LLM security. This repository holds source code and benchmarking datasets used during the research investigation of RTST.
 
-Please be aware that some datasets may contain harmful information. Harmful prompts contained in no way reflect our values.
+Please be aware that some datasets may contain sensitive or potentially harmful information. Harmful prompts in no way reflect our values.
 
 ## Installation
 Clone the repository, then use `pip install -r requirements.txt` to install required dependencies.
 
+Replication of the research methodology can be conducted by running the Python files with names corresponding to each benchmark; however, results may vary slightly due to the use of commercial models. Modification of the `pipeline_base.py` file is the best way to utilize the framework for a new task.
+
 ## Attribution
-[Work in progress]
+When utilizing this code in your work, we'd appreciate it if you would include the following citation:
+```
+@misc{zhang2025realtimeselftuningmoderatorframework,
+      title={A Real-Time, Self-Tuning Moderator Framework for Adversarial Prompt Detection}, 
+      author={Ivan Zhang},
+      year={2025},
+      eprint={2508.07139},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.07139}, 
+}
+```
